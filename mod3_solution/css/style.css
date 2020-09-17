@@ -1,0 +1,83 @@
+body {
+	font-size: 16px;
+	color: #fff;
+	background-color: #61122f;
+	font-family: 'Oxygen', sans-serif;
+}
+/** Header **/
+#header-nav {
+	background-color: #DC143C;
+	border-radius: 0;
+	border: 0;
+}
+.navbar-brand {
+	padding: 25px 25px;
+	height: 70px;
+	padding-left: -30px;
+}
+.navbar-brand h1 {
+	/*Company name */
+	font-family: 'Lora', serif;
+    color: #DCDCDC;
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+	clear: both;
+	margin-top: -50px;
+}
+
+#nav-list {
+	margin-top: 10px;
+}
+#nav-list a {
+	color: #DCDCDC;
+	text-align: center;
+}
+#nav-list a:hover {
+	background: #000080;
+}
+
+/* END HEADER */
+#menu-categories-title {
+	margin-bottom: 40px;
+	font-size: 1.8em;
+}
+
+.menu-tile {
+	background-color: #DAA520;
+	margin-bottom: 25px;
+
+}
+.menu-tile h3 {
+	text-align: center;
+	text-transform: uppercase;
+	color: #000080;
+	font-weight: bold;
+	font-size: 1.5em;
+}
+.menu-tile > p {
+	font-size: 1.2em;
+ 
+  color: #000000;
+}
+/************ Extra Small Devices Only ************/
+@media (max-width: 767px) {
+	    .col-xs-12 {
+	    	width: auto;
+	    	margin-right: 10px;
+	    	margin-left: 10px;
+  }
+
+}
